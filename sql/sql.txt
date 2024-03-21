@@ -1,0 +1,1 @@
+ALTER TABLE `stores` ADD `cover_photo_status` TINYINT NOT NULL COMMENT '0 = disable, 1 = enable' AFTER `image`;

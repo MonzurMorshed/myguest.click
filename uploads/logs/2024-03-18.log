@@ -1,0 +1,86 @@
+[18-Mar-2024 08:33:09 UTC] PHP Warning:  Attempt to read property "on_premise_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:33:09 UTC] PHP Warning:  Attempt to read property "takeaway_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:33:09 UTC] PHP Warning:  Attempt to read property "delivery_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:33:09 UTC] PHP Warning:  Attempt to read property "facebook" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 08:33:09 UTC] PHP Warning:  Attempt to read property "instagram" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 08:33:09 UTC] PHP Warning:  Attempt to read property "x" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 08:33:12 UTC] PHP Warning:  Attempt to read property "on_premise_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:33:12 UTC] PHP Warning:  Attempt to read property "takeaway_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:33:12 UTC] PHP Warning:  Attempt to read property "delivery_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:33:12 UTC] PHP Warning:  Attempt to read property "facebook" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 08:33:12 UTC] PHP Warning:  Attempt to read property "instagram" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 08:33:12 UTC] PHP Warning:  Attempt to read property "x" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 08:33:18 UTC] PHP Warning:  Attempt to read property "on_premise_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:33:18 UTC] PHP Warning:  Attempt to read property "takeaway_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:33:18 UTC] PHP Warning:  Attempt to read property "delivery_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:33:18 UTC] PHP Warning:  Attempt to read property "facebook" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 08:33:18 UTC] PHP Warning:  Attempt to read property "instagram" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 08:33:18 UTC] PHP Warning:  Attempt to read property "x" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 08:37:56 UTC] PHP Warning:  Attempt to read property "on_premise_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:37:56 UTC] PHP Warning:  Attempt to read property "takeaway_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:37:56 UTC] PHP Warning:  Attempt to read property "delivery_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:48:54 UTC] PHP Warning:  Attempt to read property "on_premise_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:48:54 UTC] PHP Warning:  Attempt to read property "takeaway_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:48:54 UTC] PHP Warning:  Attempt to read property "delivery_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:49:38 UTC] PHP Warning:  Attempt to read property "on_premise_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:49:38 UTC] PHP Warning:  Attempt to read property "takeaway_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:49:38 UTC] PHP Warning:  Attempt to read property "delivery_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:50:41 UTC] PHP Warning:  Attempt to read property "on_premise_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:50:41 UTC] PHP Warning:  Attempt to read property "takeaway_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:50:41 UTC] PHP Warning:  Attempt to read property "delivery_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:52:13 UTC] PHP Warning:  Attempt to read property "on_premise_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:52:13 UTC] PHP Warning:  Attempt to read property "takeaway_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:52:13 UTC] PHP Warning:  Attempt to read property "delivery_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:52:13 UTC] PHP Warning:  Attempt to read property "facebook" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 08:52:13 UTC] PHP Warning:  Attempt to read property "instagram" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 08:52:13 UTC] PHP Warning:  Attempt to read property "x" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 08:53:51 UTC] PHP Warning:  Attempt to read property "on_premise_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:53:51 UTC] PHP Warning:  Attempt to read property "takeaway_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:53:51 UTC] PHP Warning:  Attempt to read property "delivery_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:57:27 UTC] PHP Warning:  Attempt to read property "on_premise_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:57:27 UTC] PHP Warning:  Attempt to read property "takeaway_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:57:27 UTC] PHP Warning:  Attempt to read property "delivery_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:57:27 UTC] PHP Warning:  Attempt to read property "facebook" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 08:57:27 UTC] PHP Warning:  Attempt to read property "instagram" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 08:57:27 UTC] PHP Warning:  Attempt to read property "x" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 08:59:10 UTC] PHP Warning:  Attempt to read property "on_premise_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:59:10 UTC] PHP Warning:  Attempt to read property "takeaway_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:59:10 UTC] PHP Warning:  Attempt to read property "delivery_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 08:59:10 UTC] PHP Warning:  Attempt to read property "facebook" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 08:59:10 UTC] PHP Warning:  Attempt to read property "instagram" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 08:59:10 UTC] PHP Warning:  Attempt to read property "x" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 16:56:59 UTC] PHP Warning:  Attempt to read property "on_premise_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 16:56:59 UTC] PHP Warning:  Attempt to read property "takeaway_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 16:56:59 UTC] PHP Warning:  Attempt to read property "delivery_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 16:56:59 UTC] PHP Warning:  Attempt to read property "facebook" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 16:56:59 UTC] PHP Warning:  Attempt to read property "instagram" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 16:56:59 UTC] PHP Warning:  Attempt to read property "x" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 18:27:58 UTC] PHP Warning:  Attempt to read property "on_premise_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 18:27:58 UTC] PHP Warning:  Attempt to read property "takeaway_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 18:27:58 UTC] PHP Warning:  Attempt to read property "delivery_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 18:27:58 UTC] PHP Warning:  Attempt to read property "facebook" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 18:27:58 UTC] PHP Warning:  Attempt to read property "instagram" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 18:27:58 UTC] PHP Warning:  Attempt to read property "x" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 18:28:01 UTC] PHP Warning:  Attempt to read property "on_premise_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 18:28:01 UTC] PHP Warning:  Attempt to read property "takeaway_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 18:28:01 UTC] PHP Warning:  Attempt to read property "delivery_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 18:28:01 UTC] PHP Warning:  Attempt to read property "facebook" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 18:28:01 UTC] PHP Warning:  Attempt to read property "instagram" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 18:28:01 UTC] PHP Warning:  Attempt to read property "x" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 18:28:08 UTC] PHP Warning:  Attempt to read property "on_premise_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 18:28:08 UTC] PHP Warning:  Attempt to read property "takeaway_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 18:28:08 UTC] PHP Warning:  Attempt to read property "delivery_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[18-Mar-2024 18:28:08 UTC] PHP Warning:  Attempt to read property "facebook" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 18:28:08 UTC] PHP Warning:  Attempt to read property "instagram" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 18:28:08 UTC] PHP Warning:  Attempt to read property "x" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[18-Mar-2024 18:56:02 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'myguest_click'@'localhost' (using password: YES) in /home/myguest/web/myguest.click/public_html/app/core/Database.php on line 24
+[18-Mar-2024 18:56:53 UTC] PHP Warning:  Undefined property: stdClass::$notes in /home/myguest/web/myguest.click/public_html/themes/altum/views/account/index.php on line 183
+[18-Mar-2024 18:57:17 UTC] PHP Warning:  Undefined property: stdClass::$notes in /home/myguest/web/myguest.click/public_html/themes/altum/views/account/index.php on line 183
+[18-Mar-2024 18:58:38 UTC] PHP Warning:  Undefined array key "teams_limit" in /home/myguest/web/myguest.click/public_html/app/controllers/admin/AdminUserUpdate.php on line 57
+[18-Mar-2024 18:58:38 UTC] PHP Warning:  Undefined array key "team_members_limit" in /home/myguest/web/myguest.click/public_html/app/controllers/admin/AdminUserUpdate.php on line 58
+[18-Mar-2024 18:58:38 UTC] PHP Warning:  Undefined array key "affiliate_commission_percentage" in /home/myguest/web/myguest.click/public_html/app/controllers/admin/AdminUserUpdate.php on line 73
+[18-Mar-2024 19:00:24 UTC] PHP Warning:  Undefined array key "teams_limit" in /home/myguest/web/myguest.click/public_html/app/controllers/admin/AdminUserUpdate.php on line 57
+[18-Mar-2024 19:00:24 UTC] PHP Warning:  Undefined array key "team_members_limit" in /home/myguest/web/myguest.click/public_html/app/controllers/admin/AdminUserUpdate.php on line 58
+[18-Mar-2024 19:00:24 UTC] PHP Warning:  Undefined array key "affiliate_commission_percentage" in /home/myguest/web/myguest.click/public_html/app/controllers/admin/AdminUserUpdate.php on line 73
+[18-Mar-2024 19:00:24 UTC] PHP Warning:  Undefined array key "referred_by" in /home/myguest/web/myguest.click/public_html/app/controllers/admin/AdminUserUpdate.php on line 141
+[18-Mar-2024 19:02:13 UTC] PHP Warning:  Undefined array key "referred_by" in /home/myguest/web/myguest.click/public_html/app/controllers/admin/AdminUserUpdate.php on line 141

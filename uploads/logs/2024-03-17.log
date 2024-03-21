@@ -1,0 +1,258 @@
+[17-Mar-2024 03:07:15 UTC] PHP Warning:  Attempt to read property "facebook" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[17-Mar-2024 03:07:15 UTC] PHP Warning:  Attempt to read property "instagram" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[17-Mar-2024 03:07:15 UTC] PHP Warning:  Attempt to read property "x" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[17-Mar-2024 04:09:21 UTC] PHP Warning:  Attempt to read property "facebook" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[17-Mar-2024 04:09:21 UTC] PHP Warning:  Attempt to read property "instagram" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[17-Mar-2024 04:09:21 UTC] PHP Warning:  Attempt to read property "x" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[17-Mar-2024 04:55:19 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 04:55:19 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 04:57:56 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 04:57:56 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 04:58:54 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 04:58:54 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 04:59:44 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 04:59:44 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 05:01:18 Etc/UTC] PHP Fatal error:  Uncaught Error: Class "Altum\Controllers\MenuUpdate" not found in /home/myguest/web/myguest.click/public_html/app/core/Router.php:1325
+Stack trace:
+#0 /home/myguest/web/myguest.click/public_html/app/core/App.php(42): Altum\Router::get_controller()
+#1 /home/myguest/web/myguest.click/public_html/index.php(20): Altum\App->__construct()
+#2 {main}
+  thrown in /home/myguest/web/myguest.click/public_html/app/core/Router.php on line 1325
+[17-Mar-2024 05:01:23 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 05:01:23 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 05:01:56 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 05:01:56 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 05:03:29 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 05:03:29 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 05:03:29 UTC] PHP Warning:  Uninitialized string offset 1 in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 192
+[17-Mar-2024 05:08:12 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 184
+[17-Mar-2024 05:08:12 UTC] PHP Warning:  Attempt to read property "healthe_service_name" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 184
+[17-Mar-2024 05:08:12 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 185
+[17-Mar-2024 05:08:12 UTC] PHP Warning:  Attempt to read property "id" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 185
+[17-Mar-2024 05:08:12 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 05:08:12 UTC] PHP Warning:  Attempt to read property "speciality" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 05:08:12 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 193
+[17-Mar-2024 05:08:12 UTC] PHP Warning:  Attempt to read property "website" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 193
+[17-Mar-2024 05:08:12 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 197
+[17-Mar-2024 05:08:12 UTC] PHP Warning:  Attempt to read property "contact_no" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 197
+[17-Mar-2024 05:08:12 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 201
+[17-Mar-2024 05:08:12 UTC] PHP Warning:  Attempt to read property "contact_email" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 201
+[17-Mar-2024 05:08:12 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 205
+[17-Mar-2024 05:08:12 UTC] PHP Warning:  Attempt to read property "walking_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 205
+[17-Mar-2024 05:08:12 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 209
+[17-Mar-2024 05:08:12 UTC] PHP Warning:  Attempt to read property "driving_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 209
+[17-Mar-2024 05:08:15 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 184
+[17-Mar-2024 05:08:15 UTC] PHP Warning:  Attempt to read property "healthe_service_name" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 184
+[17-Mar-2024 05:08:15 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 185
+[17-Mar-2024 05:08:15 UTC] PHP Warning:  Attempt to read property "id" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 185
+[17-Mar-2024 05:08:15 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 05:08:15 UTC] PHP Warning:  Attempt to read property "speciality" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 05:08:15 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 193
+[17-Mar-2024 05:08:15 UTC] PHP Warning:  Attempt to read property "website" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 193
+[17-Mar-2024 05:08:15 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 197
+[17-Mar-2024 05:08:15 UTC] PHP Warning:  Attempt to read property "contact_no" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 197
+[17-Mar-2024 05:08:15 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 201
+[17-Mar-2024 05:08:15 UTC] PHP Warning:  Attempt to read property "contact_email" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 201
+[17-Mar-2024 05:08:15 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 205
+[17-Mar-2024 05:08:15 UTC] PHP Warning:  Attempt to read property "walking_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 205
+[17-Mar-2024 05:08:15 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 209
+[17-Mar-2024 05:08:15 UTC] PHP Warning:  Attempt to read property "driving_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 209
+[17-Mar-2024 05:08:37 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 05:08:37 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 05:09:31 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 184
+[17-Mar-2024 05:09:31 UTC] PHP Warning:  Attempt to read property "healthe_service_name" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 184
+[17-Mar-2024 05:09:31 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 185
+[17-Mar-2024 05:09:31 UTC] PHP Warning:  Attempt to read property "id" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 185
+[17-Mar-2024 05:09:31 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 05:09:31 UTC] PHP Warning:  Attempt to read property "speciality" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 05:09:31 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 193
+[17-Mar-2024 05:09:31 UTC] PHP Warning:  Attempt to read property "website" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 193
+[17-Mar-2024 05:09:31 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 197
+[17-Mar-2024 05:09:31 UTC] PHP Warning:  Attempt to read property "contact_no" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 197
+[17-Mar-2024 05:09:31 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 201
+[17-Mar-2024 05:09:31 UTC] PHP Warning:  Attempt to read property "contact_email" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 201
+[17-Mar-2024 05:09:31 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 205
+[17-Mar-2024 05:09:31 UTC] PHP Warning:  Attempt to read property "walking_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 205
+[17-Mar-2024 05:09:31 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 209
+[17-Mar-2024 05:09:31 UTC] PHP Warning:  Attempt to read property "driving_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 209
+[17-Mar-2024 05:09:40 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 184
+[17-Mar-2024 05:09:40 UTC] PHP Warning:  Attempt to read property "healthe_service_name" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 184
+[17-Mar-2024 05:09:40 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 185
+[17-Mar-2024 05:09:40 UTC] PHP Warning:  Attempt to read property "id" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 185
+[17-Mar-2024 05:09:40 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 05:09:40 UTC] PHP Warning:  Attempt to read property "speciality" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 05:09:40 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 193
+[17-Mar-2024 05:09:40 UTC] PHP Warning:  Attempt to read property "website" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 193
+[17-Mar-2024 05:09:40 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 197
+[17-Mar-2024 05:09:40 UTC] PHP Warning:  Attempt to read property "contact_no" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 197
+[17-Mar-2024 05:09:40 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 201
+[17-Mar-2024 05:09:40 UTC] PHP Warning:  Attempt to read property "contact_email" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 201
+[17-Mar-2024 05:09:40 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 205
+[17-Mar-2024 05:09:40 UTC] PHP Warning:  Attempt to read property "walking_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 205
+[17-Mar-2024 05:09:40 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 209
+[17-Mar-2024 05:09:40 UTC] PHP Warning:  Attempt to read property "driving_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 209
+[17-Mar-2024 05:10:36 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 05:10:36 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 05:19:59 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 05:19:59 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 05:19:59 UTC] PHP Warning:  Uninitialized string offset 1 in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 192
+[17-Mar-2024 05:21:32 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 05:21:32 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 05:23:00 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 05:23:00 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 05:23:00 UTC] PHP Warning:  Uninitialized string offset 1 in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 191
+[17-Mar-2024 05:24:57 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 05:24:57 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 05:31:22 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 05:31:22 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 05:35:17 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 05:35:17 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 05:41:02 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 05:41:02 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 05:46:20 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 05:46:20 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 05:51:18 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 05:51:18 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 05:59:22 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 05:59:22 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 06:08:07 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 06:08:07 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 06:11:40 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 06:11:40 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 06:12:52 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 06:12:52 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 06:13:37 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 06:13:37 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 06:38:34 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 06:38:34 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 07:35:15 UTC] PHP Warning:  Attempt to read property "facebook" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[17-Mar-2024 07:35:15 UTC] PHP Warning:  Attempt to read property "instagram" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[17-Mar-2024 07:35:15 UTC] PHP Warning:  Attempt to read property "x" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[17-Mar-2024 07:42:12 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 07:42:12 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 07:45:21 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 07:45:21 UTC] PHP Warning:  Attempt to read property "healthe_service_name" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 07:45:21 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 190
+[17-Mar-2024 07:45:21 UTC] PHP Warning:  Attempt to read property "id" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 190
+[17-Mar-2024 07:45:21 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 194
+[17-Mar-2024 07:45:21 UTC] PHP Warning:  Attempt to read property "speciality" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 194
+[17-Mar-2024 07:45:21 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 198
+[17-Mar-2024 07:45:21 UTC] PHP Warning:  Attempt to read property "website" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 198
+[17-Mar-2024 07:45:21 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 202
+[17-Mar-2024 07:45:21 UTC] PHP Warning:  Attempt to read property "contact_no" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 202
+[17-Mar-2024 07:45:21 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 206
+[17-Mar-2024 07:45:21 UTC] PHP Warning:  Attempt to read property "contact_email" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 206
+[17-Mar-2024 07:45:21 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 210
+[17-Mar-2024 07:45:21 UTC] PHP Warning:  Attempt to read property "walking_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 210
+[17-Mar-2024 07:45:21 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 214
+[17-Mar-2024 07:45:21 UTC] PHP Warning:  Attempt to read property "driving_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 214
+[17-Mar-2024 07:46:01 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 07:46:01 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 07:46:40 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 07:46:40 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 07:47:17 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 07:47:17 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 07:51:28 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 07:51:28 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 08:24:31 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 08:24:31 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 08:27:34 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 08:27:34 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 08:30:24 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 08:30:24 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 08:33:27 UTC] PHP Warning:  Attempt to read property "on_premise_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[17-Mar-2024 08:33:27 UTC] PHP Warning:  Attempt to read property "takeaway_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[17-Mar-2024 08:33:27 UTC] PHP Warning:  Attempt to read property "delivery_is_enabled" on null in /home/myguest/web/myguest.click/public_html/app/controllers/s/Store.php on line 201
+[17-Mar-2024 08:33:27 UTC] PHP Warning:  Attempt to read property "facebook" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[17-Mar-2024 08:33:27 UTC] PHP Warning:  Attempt to read property "instagram" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[17-Mar-2024 08:33:27 UTC] PHP Warning:  Attempt to read property "x" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/s/partials/footer.php on line 33
+[17-Mar-2024 12:37:35 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 12:37:35 UTC] PHP Warning:  Attempt to read property "healthe_service_name" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 12:37:35 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 190
+[17-Mar-2024 12:37:35 UTC] PHP Warning:  Attempt to read property "id" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 190
+[17-Mar-2024 12:37:35 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 194
+[17-Mar-2024 12:37:35 UTC] PHP Warning:  Attempt to read property "speciality" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 194
+[17-Mar-2024 12:37:35 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 198
+[17-Mar-2024 12:37:35 UTC] PHP Warning:  Attempt to read property "website" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 198
+[17-Mar-2024 12:37:35 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 202
+[17-Mar-2024 12:37:35 UTC] PHP Warning:  Attempt to read property "contact_no" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 202
+[17-Mar-2024 12:37:35 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 206
+[17-Mar-2024 12:37:35 UTC] PHP Warning:  Attempt to read property "contact_email" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 206
+[17-Mar-2024 12:37:35 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 210
+[17-Mar-2024 12:37:35 UTC] PHP Warning:  Attempt to read property "walking_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 210
+[17-Mar-2024 12:37:35 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 214
+[17-Mar-2024 12:37:35 UTC] PHP Warning:  Attempt to read property "driving_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 214
+[17-Mar-2024 12:37:35 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 219
+[17-Mar-2024 12:37:35 UTC] PHP Warning:  Attempt to read property "id" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 219
+[17-Mar-2024 14:04:43 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 14:04:43 UTC] PHP Warning:  Attempt to read property "healthe_service_name" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 14:04:43 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 190
+[17-Mar-2024 14:04:43 UTC] PHP Warning:  Attempt to read property "id" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 190
+[17-Mar-2024 14:04:43 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 194
+[17-Mar-2024 14:04:43 UTC] PHP Warning:  Attempt to read property "speciality" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 194
+[17-Mar-2024 14:04:43 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 198
+[17-Mar-2024 14:04:43 UTC] PHP Warning:  Attempt to read property "website" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 198
+[17-Mar-2024 14:04:43 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 202
+[17-Mar-2024 14:04:43 UTC] PHP Warning:  Attempt to read property "contact_no" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 202
+[17-Mar-2024 14:04:43 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 206
+[17-Mar-2024 14:04:43 UTC] PHP Warning:  Attempt to read property "contact_email" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 206
+[17-Mar-2024 14:04:43 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 210
+[17-Mar-2024 14:04:43 UTC] PHP Warning:  Attempt to read property "walking_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 210
+[17-Mar-2024 14:04:43 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 214
+[17-Mar-2024 14:04:43 UTC] PHP Warning:  Attempt to read property "driving_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 214
+[17-Mar-2024 14:08:53 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 14:08:53 UTC] PHP Warning:  Attempt to read property "healthe_service_name" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 14:08:53 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 190
+[17-Mar-2024 14:08:53 UTC] PHP Warning:  Attempt to read property "id" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 190
+[17-Mar-2024 14:08:53 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 194
+[17-Mar-2024 14:08:53 UTC] PHP Warning:  Attempt to read property "speciality" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 194
+[17-Mar-2024 14:08:53 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 198
+[17-Mar-2024 14:08:53 UTC] PHP Warning:  Attempt to read property "website" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 198
+[17-Mar-2024 14:08:53 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 202
+[17-Mar-2024 14:08:53 UTC] PHP Warning:  Attempt to read property "contact_no" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 202
+[17-Mar-2024 14:08:53 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 206
+[17-Mar-2024 14:08:53 UTC] PHP Warning:  Attempt to read property "contact_email" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 206
+[17-Mar-2024 14:08:53 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 210
+[17-Mar-2024 14:08:53 UTC] PHP Warning:  Attempt to read property "walking_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 210
+[17-Mar-2024 14:08:53 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 214
+[17-Mar-2024 14:08:53 UTC] PHP Warning:  Attempt to read property "driving_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 214
+[17-Mar-2024 14:14:43 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 14:14:43 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 14:15:21 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 14:15:21 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 14:18:29 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 14:18:29 UTC] PHP Warning:  Attempt to read property "healthe_service_name" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 14:18:29 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 190
+[17-Mar-2024 14:18:29 UTC] PHP Warning:  Attempt to read property "id" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 190
+[17-Mar-2024 14:18:29 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 194
+[17-Mar-2024 14:18:29 UTC] PHP Warning:  Attempt to read property "speciality" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 194
+[17-Mar-2024 14:18:29 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 198
+[17-Mar-2024 14:18:29 UTC] PHP Warning:  Attempt to read property "website" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 198
+[17-Mar-2024 14:18:29 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 202
+[17-Mar-2024 14:18:29 UTC] PHP Warning:  Attempt to read property "contact_no" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 202
+[17-Mar-2024 14:18:29 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 206
+[17-Mar-2024 14:18:29 UTC] PHP Warning:  Attempt to read property "contact_email" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 206
+[17-Mar-2024 14:18:29 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 210
+[17-Mar-2024 14:18:29 UTC] PHP Warning:  Attempt to read property "walking_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 210
+[17-Mar-2024 14:18:29 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 214
+[17-Mar-2024 14:18:29 UTC] PHP Warning:  Attempt to read property "driving_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 214
+[17-Mar-2024 14:19:06 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 14:19:06 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62
+[17-Mar-2024 16:42:15 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 16:42:15 UTC] PHP Warning:  Attempt to read property "healthe_service_name" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 189
+[17-Mar-2024 16:42:15 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 190
+[17-Mar-2024 16:42:15 UTC] PHP Warning:  Attempt to read property "id" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 190
+[17-Mar-2024 16:42:15 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 194
+[17-Mar-2024 16:42:15 UTC] PHP Warning:  Attempt to read property "speciality" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 194
+[17-Mar-2024 16:42:15 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 198
+[17-Mar-2024 16:42:15 UTC] PHP Warning:  Attempt to read property "website" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 198
+[17-Mar-2024 16:42:15 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 202
+[17-Mar-2024 16:42:15 UTC] PHP Warning:  Attempt to read property "contact_no" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 202
+[17-Mar-2024 16:42:15 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 206
+[17-Mar-2024 16:42:15 UTC] PHP Warning:  Attempt to read property "contact_email" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 206
+[17-Mar-2024 16:42:15 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 210
+[17-Mar-2024 16:42:15 UTC] PHP Warning:  Attempt to read property "walking_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 210
+[17-Mar-2024 16:42:15 UTC] PHP Warning:  Undefined array key 0 in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 214
+[17-Mar-2024 16:42:15 UTC] PHP Warning:  Attempt to read property "driving_distance" on null in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 214
+[17-Mar-2024 16:44:00 UTC] PHP Warning:  Undefined array key "emergency_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 57
+[17-Mar-2024 16:44:00 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 62

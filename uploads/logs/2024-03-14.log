@@ -1,0 +1,30 @@
+[14-Mar-2024 16:53:41 UTC] PHP Warning:  Undefined array key "currency" in /home/myguest/web/myguest.click/public_html/app/controllers/StoreCreate.php on line 42
+[14-Mar-2024 16:57:52 UTC] PHP Warning:  Undefined property: stdClass::$menu_ref_id in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu/menu_dropdown_button.php on line 15
+[14-Mar-2024 16:57:52 UTC] PHP Warning:  Undefined property: stdClass::$menu_ref_id in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu/menu_dropdown_button.php on line 15
+[14-Mar-2024 16:57:52 UTC] PHP Warning:  Undefined property: stdClass::$menu_ref_id in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu/menu_dropdown_button.php on line 15
+[14-Mar-2024 16:57:52 UTC] PHP Warning:  Undefined property: stdClass::$menu_ref_id in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu/menu_dropdown_button.php on line 15
+[14-Mar-2024 16:57:52 UTC] PHP Warning:  Undefined property: stdClass::$menu_ref_id in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu/menu_dropdown_button.php on line 15
+[14-Mar-2024 16:57:52 UTC] PHP Warning:  Undefined property: stdClass::$menu_ref_id in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu/menu_dropdown_button.php on line 15
+[14-Mar-2024 16:57:52 UTC] PHP Warning:  Undefined property: stdClass::$menu_ref_id in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu/menu_dropdown_button.php on line 15
+[14-Mar-2024 16:57:52 UTC] PHP Warning:  Undefined property: stdClass::$menu_ref_id in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu/menu_dropdown_button.php on line 15
+[14-Mar-2024 16:57:52 UTC] PHP Warning:  Undefined property: stdClass::$menu_ref_id in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu/menu_dropdown_button.php on line 15
+[14-Mar-2024 16:57:52 UTC] PHP Warning:  Undefined property: stdClass::$menu_ref_id in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu/menu_dropdown_button.php on line 15
+[14-Mar-2024 16:57:52 UTC] PHP Warning:  Undefined property: stdClass::$menu_ref_id in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu/menu_dropdown_button.php on line 15
+[14-Mar-2024 16:57:52 UTC] PHP Warning:  Undefined property: stdClass::$menu_ref_id in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu/menu_dropdown_button.php on line 15
+[14-Mar-2024 16:57:52 UTC] PHP Warning:  Undefined property: stdClass::$menu_ref_id in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu/menu_dropdown_button.php on line 15
+[14-Mar-2024 16:57:52 UTC] PHP Warning:  Undefined property: stdClass::$menu_ref_id in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu/menu_dropdown_button.php on line 15
+[14-Mar-2024 16:57:52 UTC] PHP Warning:  Undefined property: stdClass::$menu_ref_id in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu/menu_dropdown_button.php on line 15
+[14-Mar-2024 16:59:44 UTC] PHP Warning:  Undefined property: stdClass::$menu_ref_id in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu/menu_dropdown_button.php on line 15
+[14-Mar-2024 17:01:04 UTC] PHP Warning:  Undefined property: stdClass::$menu_ref_id in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu/menu_dropdown_button.php on line 15
+[14-Mar-2024 17:01:25 UTC] PHP Parse error:  syntax error, unexpected token ";" in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu-update/index.php on line 44
+[14-Mar-2024 17:01:39 UTC] PHP Warning:  Undefined property: stdClass::$menu_ref_id in /home/myguest/web/myguest.click/public_html/themes/altum/views/menu/menu_dropdown_button.php on line 15
+[14-Mar-2024 17:03:01 UTC] PHP Warning:  Undefined variable $allowedFields in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 111
+[14-Mar-2024 17:03:01 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php:111
+Stack trace:
+#0 /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php(111): in_array()
+#1 [internal function]: Altum\Controllers\MenuUpdate->index()
+#2 /home/myguest/web/myguest.click/public_html/app/core/App.php(212): call_user_func_array()
+#3 /home/myguest/web/myguest.click/public_html/index.php(20): Altum\App->__construct()
+#4 {main}
+  thrown in /home/myguest/web/myguest.click/public_html/app/controllers/MenuUpdate.php on line 111
+[14-Mar-2024 17:05:00 UTC] PHP Warning:  Undefined array key "currency" in /home/myguest/web/myguest.click/public_html/app/controllers/StoreCreate.php on line 42
