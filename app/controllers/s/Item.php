@@ -24,6 +24,8 @@ class Item extends Controller {
 
     public function index() {
 
+        
+
         /* Parse & control the store */
         require_once APP_PATH . 'controllers/s/Store.php';
         $store_controller = new \Altum\Controllers\Store((array) $this);

@@ -607,8 +607,8 @@
                 </div>
 
                 <div class="form-group custom-control custom-switch">
-                    <input id="display_share_buttons" name="cover_photo_status" type="checkbox" class="custom-control-input" <?= $data->store->settings->cover_photo_status ? 'checked="checked"' : null?>>
-                    <label class="custom-control-label" for="display_share_buttons"><?= l('store.input.cover_photo_status') ?></label>
+                    <input id="display_share_buttons" name="cover_photo_status" type="checkbox" class="custom-control-input" <?= $data->store->cover_photo_status ? 'checked="checked"' : null?>>
+                    <label class="custom-control-label" for="display_share_buttons">Enable cover photo on guestbook</label>
                 </div>
 
                 <?php $available_fonts = require APP_PATH . 'includes/s/fonts.php'; ?>

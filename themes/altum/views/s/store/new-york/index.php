@@ -5,7 +5,7 @@
 <div class="container my-4">
     <div class="d-flex">
         <p class="text-black text-uppercase font-weight-bold mr-3">
-            <?= $data->store->name ?>
+            <?= $data->store->name ?> 
         </p>
 
         <?php if($data->store->details->hours->{$data->day}->is_enabled): ?>

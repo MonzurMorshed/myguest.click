@@ -23,6 +23,10 @@ class Store extends Controller {
 
     public function index() {
 
+        // echo '<pre>';
+        // print_r('hello');
+        // exit;
+
         $this->init();
 
         /* Check if the password form is submitted */

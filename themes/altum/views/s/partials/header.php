@@ -56,6 +56,7 @@
 </div>
 
 <?php /* Only display the cover background if there is an image and only on the store index */ ?>
+<?php if($data->store->cover_photo_status == 1) : ?>
 <?php if(!empty($data->store->image) && \Altum\Router::$controller_key == 'store'): ?>
 <div class="container mt-8 mb-5 my-lg-5">
     <a href="<?= $data->store->full_url ?>">
@@ -68,7 +69,61 @@
     </a>
 </div>
 <?php else: ?>
-    <div class="container my-2 d-lg-none">&nbsp;</div>
+<div class="container my-2 lg:d-none md:d-none">&nbsp;</div>
+<?php endif ?>
+<?php else: ?>
+    <div class="container my-2 mt-4">
+        &nbsp;
+        
+        <style>
+        .upcoming-widget-square__location--V9Kf {
+    padding-top: 20px !important;
+    color: hsla(0,0%,100%,.6);
+    /* margin: -2px; */
+}
+   </style>     
+        <script>
+        (function(d, s, id) {
+            if (d.getElementById(id)) {
+                if (window.__TOMORROW__) {
+                    window.__TOMORROW__.renderWidget();
+                }
+                return;
+            }
+            const fjs = d.getElementsByTagName(s)[0];
+            const js = d.createElement(s);
+            js.id = id;
+            js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+
+            fjs.parentNode.insertBefore(js, fjs);
+        })(document, 'script', 'tomorrow-sdk');
+        </script>
+
+        <div class="tomorrow"
+           data-location-id=""
+           data-language="EN"
+           data-unit-system="IMPERIAL"
+           data-skin="dark"
+           data-widget-type="upcoming"
+           style="padding-bottom:22px;position:relative;"
+        >
+          <a
+            href="https://www.tomorrow.io/weather-api/"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+            style="position: absolute; bottom: 0; transform: translateX(-50%); left: 50%;"
+          >
+            <img
+              alt="Powered by the Tomorrow.io Weather API"
+              src="https://weather-website-client.tomorrow.io/img/powered-by.svg"
+              width="250"
+              height="18"
+            />
+          </a>
+        </div>
+   
+    </div>
+    
 <?php endif ?>
 
 <?php if($this->store->cart_is_enabled): ?>

@@ -285,7 +285,7 @@ class StoreUpdate extends Controller {
                     'opengraph' => $opengraph,
                     'is_enabled' => $_POST['is_enabled'],
                     'last_datetime' => \Altum\Date::$date,
-                    'cover_photo_status' => $_POST['cover_photo_status']
+                    'cover_photo_status' => $_POST['cover_photo_status'] == 'on' ? 1 : 0
                 ]);
 
                 /* Update custom domain if needed */
@@ -351,6 +351,10 @@ class StoreUpdate extends Controller {
             'store' => $store,
             'domains' => $domains
         ];
+
+        // echo '<pre>';
+        // print_r($data);
+        // exit;
 
         $view = new \Altum\View('store-update/index', (array) $this);
 

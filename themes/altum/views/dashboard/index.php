@@ -167,10 +167,14 @@
         </div>
     </div>
 
-    <?php if(count($data->stores)): ?>
+    <?php 
+      // echo '<pre>';
+      //   print_r($stores_statistics);
+      //   exit;
+     if(count($data->stores_statistics->stores_details)): ?>
         <div class="row">
 
-            <?php foreach($data->stores as $row): ?>
+            <?php foreach($data->stores_statistics->stores_details as $row): ?>
                 <div class="col-12 col-md-6 col-xl-4 mb-4">
                     <div class="card h-100">
                         <div class="card-body d-flex flex-column justify-content-between">
@@ -224,8 +228,11 @@
 
                         <div class="card-footer bg-gray-50 border-0">
                             <div class="d-flex flex-lg-row justify-content-lg-between">
-                                <div>
+                                <!-- <div>
                                     <i class="fas fa-fw fa-sm fa-chart-pie text-muted mr-1"></i> <a href="<?= url('statistics?store_id=' . $row->store_id) ?>"><?= sprintf(l('store.pageviews'), nr($row->pageviews)) ?></a>
+                                </div> -->
+                                <div>
+                                    <i class="fas fa-fw fa-sm fa-chart-pie text-muted mr-1"></i> <a href="<?= url('statistics?store_id=' . $row->store_id) ?>"><?= sprintf(l('store.pageviews'), $row->pageviews) ?></a>
                                 </div>
 
                                 <div>
