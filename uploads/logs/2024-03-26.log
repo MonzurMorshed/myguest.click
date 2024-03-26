@@ -1,0 +1,14 @@
+[26-Mar-2024 18:37:06 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in D:\laragon\www\myguest.click\themes\altum\views\s\menu\new-york\index.php:281
+Stack trace:
+#0 D:\laragon\www\myguest.click\themes\altum\views\s\menu\new-york\index.php(127): getdata(Object(stdClass))
+#1 D:\laragon\www\myguest.click\app\core\View.php(35): require('D:\\laragon\\www\\...')
+#2 D:\laragon\www\myguest.click\app\controllers\s\Menu.php(98): Altum\View->run(Object(stdClass))
+#3 [internal function]: Altum\Controllers\Menu->index()
+#4 D:\laragon\www\myguest.click\app\core\App.php(212): call_user_func_array(Array, Array)
+#5 D:\laragon\www\myguest.click\index.php(20): Altum\App->__construct()
+#6 {main}
+  thrown in D:\laragon\www\myguest.click\themes\altum\views\s\menu\new-york\index.php on line 281
+[26-Mar-2024 18:40:49 UTC] PHP Parse error:  syntax error, unexpected token "<" in D:\laragon\www\myguest.click\themes\altum\views\s\menu\new-york\index.php on line 284
+[26-Mar-2024 18:58:38 UTC] PHP Parse error:  Unclosed '{' on line 161 in D:\laragon\www\myguest.click\themes\altum\views\menu-update\index.php on line 356
+[26-Mar-2024 18:58:41 UTC] PHP Parse error:  Unclosed '{' on line 161 in D:\laragon\www\myguest.click\themes\altum\views\menu-update\index.php on line 356
+[26-Mar-2024 18:59:22 UTC] PHP Parse error:  Unclosed '{' on line 161 in D:\laragon\www\myguest.click\themes\altum\views\menu-update\index.php on line 356

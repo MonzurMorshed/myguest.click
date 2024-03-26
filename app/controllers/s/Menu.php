@@ -71,6 +71,17 @@ class Menu extends Controller {
         $this->add_view_content('header', $view->run(['store' => $this->store]));
 
         /* Main View */
+
+        $menus_result = database()->query("
+                SELECT
+                    *
+                FROM
+                    `menus`
+                WHERE
+                    `store_id` = {$this->store->store_id}
+                    AND `menu_id` = {$this->menu->menu_id}
+            ");
+
         $data = [
             'store' => $this->store,
             'store_user' => $this->store_user,
@@ -79,6 +90,8 @@ class Menu extends Controller {
             'items' => $items,
             'health_services' => $health_services
         ];
+
+        $data['menu'] = $menus_result->fetch_object();
 
         $view = new \Altum\View('s/menu/' . $this->store->theme . '/index', (array) $this);
 

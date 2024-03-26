@@ -1,0 +1,10 @@
+[24-Mar-2024 15:00:47 UTC] PHP Warning:  Undefined property: stdClass::$store_id in D:\laragon\www\myguest.click\app\controllers\Dashboard.php on line 104
+[24-Mar-2024 15:00:47 UTC] PHP Warning:  Undefined property: stdClass::$user_id in D:\laragon\www\myguest.click\app\controllers\Dashboard.php on line 105
+[24-Mar-2024 15:00:47 UTC] PHP Warning:  Undefined property: stdClass::$full_url in D:\laragon\www\myguest.click\themes\altum\views\dashboard\index.php on line 191
+[24-Mar-2024 15:00:47 UTC] PHP Warning:  Undefined property: stdClass::$full_url in D:\laragon\www\myguest.click\themes\altum\views\dashboard\index.php on line 191
+[24-Mar-2024 16:18:16 UTC] PHP Deprecated:  mb_strlen(): Passing null to parameter #1 ($string) of type string is deprecated in D:\laragon\www\myguest.click\app\helpers\strings.php on line 49
+[24-Mar-2024 16:18:16 UTC] PHP Deprecated:  mb_strlen(): Passing null to parameter #1 ($string) of type string is deprecated in D:\laragon\www\myguest.click\app\helpers\strings.php on line 49
+[24-Mar-2024 16:18:32 UTC] PHP Deprecated:  mb_strlen(): Passing null to parameter #1 ($string) of type string is deprecated in D:\laragon\www\myguest.click\app\helpers\strings.php on line 49
+[24-Mar-2024 16:18:32 UTC] PHP Deprecated:  mb_strlen(): Passing null to parameter #1 ($string) of type string is deprecated in D:\laragon\www\myguest.click\app\helpers\strings.php on line 49
+[24-Mar-2024 16:22:50 UTC] PHP Warning:  Undefined array key "check_in_out_add_notes" in D:\laragon\www\myguest.click\app\controllers\MenuUpdate.php on line 62
+[24-Mar-2024 16:22:50 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in D:\laragon\www\myguest.click\app\controllers\MenuUpdate.php on line 62

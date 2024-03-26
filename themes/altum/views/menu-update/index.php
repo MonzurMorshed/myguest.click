@@ -158,23 +158,47 @@
                 </div>
         <?php } ?> 
 
-        <?php if($data->menu->menu_ref_id == 8){ ?>
-                <div class="form-group">
-                    <label for="emergency"><i class="fas fa-fw fa-sm fa-clock text-muted mr-1"></i> <?= l('menu.input.emergency') ?></label>
-                    <input type="text" id="emergency" name="emergency" class="form-control" value="<?= $data->menu->emergency ?>" />
+        <?php if($data->menu->menu_ref_id == 8){ //echo '<pre>'; print_r($data);
+        ?>
+            <?php 
+                // echo '<pre>';
+                // print_r($data->menu);
+                // exit;
+                $total = count(json_decode($data->menu->emergency_call,true));
+                $emergency = json_decode($data->menu->emergency,true); 
+                $emergency_call = json_decode($data->menu->emergency_call,true);
+                $emergency_add_notes = json_decode($data->menu->emergency_add_notes,true);
+
+                for($i = 0; $i < $total; $i++) {
+            ?>
+
+                <div id="emergency_div">
+                    <div class="form-group">
+                        <label for="emergency"><i class="fas fa-fw fa-sm fa-clock text-muted mr-1"></i> <?= l('menu.input.emergency') ?></label>
+                        <input type="text" id="emergency" name="emergency[]" class="form-control" value="<?= $emergency[$i] ?>" />
+                    </div>
+                    <div class="form-group">
+                        <label for="emergency_call"><i class="fas fa-fw fa-sm fa-phone text-muted mr-1"></i> <?= l('menu.input.emergency_call') ?></label>
+                        <input type="text" id="emergency_call" name="emergency_call[]" class="form-control" value="<?= $emergency_call[$i] ?>" />
+                    </div>
+                    <?php $savedEmergencyNotes = ""; if($data->menu->emergency_add_notes != ""){ $savedEmergencyNotes = $data->menu->emergency_add_notes; } ?>
+                    <input type="hidden" name="emergency_add_notes_val[]" id="emergency_add_notes_val" value="<?php echo $savedEmergencyNotes; ?>">
+                    <div class="form-group">
+                        <label for="emergency_add_notes"><i class="fas fa-fw fa-sm fa-list-alt text-muted mr-1"></i> <?= l('menu.input.emergency_add_notes') ?></label>
+                        <div id="emergency_add_notes"></div>
+                        <input type="hidden" id="emergency_add_notes_input[]" name="emergency_add_notes">
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="emergency_call"><i class="fas fa-fw fa-sm fa-phone text-muted mr-1"></i> <?= l('menu.input.emergency_call') ?></label>
-                    <input type="text" id="emergency_call" name="emergency_call" class="form-control" value="<?= $data->menu->emergency_call ?>" />
-                </div>
-                <?php $savedEmergencyNotes = ""; if($data->menu->emergency_add_notes != ""){ $savedEmergencyNotes = $data->menu->emergency_add_notes; } ?>
-                <input type="hidden" name="emergency_add_notes_val" id="emergency_add_notes_val" value="<?php echo $savedEmergencyNotes; ?>">
-                <div class="form-group">
-                    <label for="emergency_add_notes"><i class="fas fa-fw fa-sm fa-list-alt text-muted mr-1"></i> <?= l('menu.input.emergency_add_notes') ?></label>
-                    <div id="emergency_add_notes"></div>
-                    <input type="hidden" id="emergency_add_notes_input" name="emergency_add_notes">
-                </div>
+                <?php } ?>
+                <hr class="separaator" />
         <?php } ?> 
+            <div class="form-group">                   
+                <div class="input-group">
+                    <div class="input-group">
+                        <button type="button" class="btn btn-primary  mr-2" id="add_emergency">Add Another</button>                                    
+                    </div>
+                </div>
+            </div>
             
         <?php if($data->menu->menu_ref_id == 9){ ?>
             <?php 

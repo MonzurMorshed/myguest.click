@@ -278,26 +278,45 @@
 
     if($data->menu->menu_ref_id == 8) {  ?>
 
-        <?php if($data->menu->emergency != ""): ?>
-            <label>Emergency Service</label>
-            <p class="text-muted"><?= $data->menu->emergency ?></p>
-        <?php endif ?> 
-        <?php if($data->menu->emergency_call != ""): ?>
-            <label>Emergency Number</label>
-            <p class="text-muted"><?= $data->menu->emergency_call ?></p>
-        <?php endif ?>    
-        
-        <?php if($data->menu->emergency_add_notes != ""): ?>
-            <label>Additional Details</label>
-            <p class="text-muted"><?= $data->menu->emergency_add_notes ?></p>
-        <?php endif ?>    
+        <?php $total = count(json_decode($data->menu->emergency_call,true)); ?>
+        <?php
+            $emergency = json_decode($data->menu->emergency,true); 
+            $emergency_call = json_decode($data->menu->emergency_call,true);
+            $emergency_add_notes = json_decode($data->menu->emergency_add_notes,true);
+        ?>
+
+        <div class="container">
+            <div class="row">
+                <?php for($i = 0; $i < $total; $i++) { ?>
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <?php if($data->menu->emergency != ""): ?>
+                                    <h5 class="card-title">Emergency Service</h5>
+                                    <p class="card-text"><?= $emergency[$i] ?></p>
+                                <?php endif ?> 
+                                <?php if($data->menu->emergency_call != ""): ?>
+                                  
+                                    <p class="card-text"><strong>Emergency Number</strong> <?= $emergency_call[$i] ?></p>
+                                <?php endif ?>    
+                                
+                                <?php if($data->menu->emergency_add_notes != ""): ?>
+                                    
+                                    <p class="card-text"><strong>Additional Details</strong> <?= $emergency_add_notes[$i] ?></p>
+                                <?php endif ?>
+                            </div>
+                        </div>
+                    </div>
+                <?php } ?>
+            </div>
+        </div>    
     <?php }
         if($data->menu->menu_ref_id == 9) { 
             if(!empty($data->health_services)){ ?>
                <div class="container">
                     <div class="row">
                         <?php foreach ($data->health_services as $services): ?>
-                            <div class="col-md-6">
+                            <div class="col-md-6 mb-4">
                                 <div class="card">
                                     <div class="card-body">
                                         <h5 class="card-title"><?php echo $services->healthe_service_name; ?></h5>
@@ -305,8 +324,8 @@
                                         <p class="card-text"><strong>Website:</strong> <a href="<?php echo $services->website; ?>"><?php echo $services->website; ?></a></p>
                                         <p class="card-text"><strong>Contact No:</strong> <?php echo $services->contact_no; ?></p>
                                         <p class="card-text"><strong>Contact Email:</strong> <?php echo $services->contact_email; ?></p>
-                                        <p class="card-text"><strong>Walking Distance:</strong> <?php echo $services->walking_distance; ?></p>
-                                        <p class="card-text"><strong>Driving Distance:</strong> <?php echo $services->driving_distance; ?></p>
+                                        <p class="card-text"><strong>Walking Distance:</strong> <?php echo $services->walking_distance; ?> Minutes</p>
+                                        <p class="card-text"><strong>Driving Distance:</strong> <?php echo $services->driving_distance; ?> Minutes</p>
                                         <p class="card-text"><strong>Created At:</strong> <?php echo $services->created_at; ?></p>
                                     </div>
                                 </div>

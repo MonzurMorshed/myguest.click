@@ -166,6 +166,69 @@
 
     });
     //remove  health service : end
+
+
+    //add_emergency : start
+    $("#add_emergency").click(function(){
+        var emergrncy = document.getElementById("emergency_div");
+        var separator = document.createElement("hr");
+        separator.classList.add("separator");
+
+        //emergrncy.appendChild(separator);
+        var clone = emergrncy.cloneNode(true);
+
+        // Remove content from the cloned elements
+        var clonedInputs = clone.querySelectorAll("input[type='text'],input[type='hidden']");
+        
+        clonedInputs.forEach(function(input) {
+            input.value = "";
+        });
+        // Find all divs with id "emergency"
+        var allEmergency = document.querySelectorAll("div[id='emergency_div']");
+
+        // Get the last div with id "emergency"
+        var lastemergrncy = allEmergency[allEmergency.length - 1];
+
+        console.log('clonedInputs : ',lastemergrncy);
+
+        if (!lastemergrncy.querySelector("#remove_emergency")) {
+            var removeButton = document.createElement("button");
+            removeButton.setAttribute("type", "button");
+            removeButton.setAttribute("class", "btn btn-danger");
+            removeButton.setAttribute("id", "remove_health_service");
+            removeButton.setAttribute("data-id", "");
+            removeButton.textContent = "Remove";
+            lastemergrncy.appendChild(removeButton);
+        }
+
+
+        // Append separator and clone after the last health services div
+        lastemergrncy.appendChild(separator);
+        lastemergrncy.parentNode.insertBefore(clone, lastemergrncy.nextSibling);
+
+        // healthServicesDiv.appendChild(clone);
+
+        
+
+    })
+    //add health services : end
+    //remove health service : start
+    $(document).on("click", "button#remove_emergency", function(){    
+        var parentDiv = $(this).closest("div[id='emergency']");
+    
+        // Remove the parent div if found
+        if (parentDiv.length > 0) {
+            parentDiv.remove();
+        }
+        var allEmergency = $("div[id='emergency']");
+        if (allEmergency.length === 1) {
+            console.log("hello");   
+            // If only one div exists, hide or remove the remove button
+            $("button#remove_emergency").hide(); // or $(this).remove();
+        }
+
+    });
+    //remove  emergency : end
     
    
 </script>

@@ -609,6 +609,7 @@
                 <div class="form-group custom-control custom-switch">
                     <input id="display_share_buttons" name="cover_photo_status" type="checkbox" class="custom-control-input" <?= $data->store->cover_photo_status ? 'checked="checked"' : null?>>
                     <label class="custom-control-label" for="display_share_buttons">Enable cover photo on guestbook</label>
+                    <small>If cover photo is disabled a weather widget will display instead.</small>
                 </div>
 
                 <?php $available_fonts = require APP_PATH . 'includes/s/fonts.php'; ?>

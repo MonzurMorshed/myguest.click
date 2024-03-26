@@ -111,9 +111,33 @@ class MenuUpdate extends Controller {
                     $updateData = [];
                     $allowedFields = ['url', 'name', 'description', 'is_enabled', 'network','network_password','add_notes'];
                 }
+
                 if($menu->menu_ref_id == 8){
                     $updateData = [];
                     $allowedFields = ['url', 'name', 'description', 'is_enabled', 'emergency','emergency_call','emergency_add_notes'];
+                    echo '<pre>';
+                    // print_r($postdata);
+                    $emergency = json_encode($_POST['emergency']);
+                    $emergency_call = json_encode($_POST['emergency_call']);
+                    // print_r($emergency_call);
+                    $emergency_add_notes = json_encode($_POST['emergency_add_notes_val']);
+                    $total_rows = sizeof($_POST['emergency']);
+                    // $update_emergenncy = $this->update_details($_POST,$store);
+                    
+                    $q = "UPDATE `menus` SET 
+                        `emergency` = '".$emergency."', 
+                        `emergency_call` = '".$emergency_call."', 
+                        `emergency_add_notes` = '".$emergency_add_notes."' 
+                        WHERE `menu_id` = '".$menu->menu_id."' AND
+                         `user_id` = '".$this->user->user_id."' ";
+
+                    $sql = database()->query($q);
+
+                    /* Set a nice success message */
+                    Alerts::add_success(sprintf(l('global.success_message.update1'), '<strong>' . $_POST['name'] . '</strong>'));
+
+                    redirect('menu-update/' . $menu->menu_id);
+
                 }
                 if($menu->menu_ref_id == 4){
                     $updateData = [];
@@ -171,25 +195,28 @@ class MenuUpdate extends Controller {
         $this->add_view_content('content', $view->run($data));
 
     }
+
     public function update_details($postdata,$store){  
         db()->where('store_id', $store->store_id)->delete('store_health_services');
 
-        $total_rows = count($_POST['healthe_service_name']);
-        for($i=0;$i<$total_rows;$i++){
-            $data = array(
-                'healthe_service_name' => $_POST['healthe_service_name'][$i],
-                'speciality' => $_POST['speciality'][$i],
-                'website' => $_POST['website'][$i],
-                'contact_no' => $_POST['contact_no'][$i],
-                'contact_email' => $_POST['contact_email'][$i],
-                'walking_distance' => $_POST['walking_distance'][$i],
-                'driving_distance' => $_POST['driving_distance'][$i],
-                'store_id' => $store->store_id
-            );
-            $data['store_id'] = $store->store_id;
-            $data['created_at'] = \Altum\Date::$date;
-            $store_health_services_updateData = db()->insert('store_health_services', $data);
-        } 
+        if(isset($_POST['healthe_service_name'])) {
+            $total_rows = count($_POST['healthe_service_name']);
+            for($i=0;$i<$total_rows;$i++){
+                $data = array(
+                    'healthe_service_name' => $_POST['healthe_service_name'][$i],
+                    'speciality' => $_POST['speciality'][$i],
+                    'website' => $_POST['website'][$i],
+                    'contact_no' => $_POST['contact_no'][$i],
+                    'contact_email' => $_POST['contact_email'][$i],
+                    'walking_distance' => $_POST['walking_distance'][$i],
+                    'driving_distance' => $_POST['driving_distance'][$i],
+                    'store_id' => $store->store_id
+                );
+                $data['store_id'] = $store->store_id;
+                $data['created_at'] = \Altum\Date::$date;
+                $store_health_services_updateData = db()->insert('store_health_services', $data);
+            } 
+        }
        
 
         
@@ -214,6 +241,26 @@ class MenuUpdate extends Controller {
                 //     $store_health_services_updateData = db()->insert('store_health_services', $data);
                 // }                
                 //add data for health services:end
+    }
+
+    public function update_emergency_details($postdata,$store){  
+        // db()->where('store_id', $store->store_id)->delete('store_health_services');
+        echo '<pre>';
+        print_r($postdata);
+        print_r($_POST['emergency']);
+        exit;
+
+        $total_rows = count($_POST['emergency']);
+        for($i=0;$i<$total_rows;$i++){
+            $data = array(
+                'emergency' => $_POST['emergency'][$i],
+                'emergency_call' => $_POST['emergency_call'][$i],
+                'emergency_add_notes_val' => $_POST['emergency_add_notes_val'][$i]
+            );
+            $data['store_id'] = $store->store_id;
+            $data['created_at'] = \Altum\Date::$date;
+            $store_health_services_updateData = db()->insert('store_health_services', $data);
+        } 
     }
 
 }
